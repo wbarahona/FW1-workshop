@@ -10,8 +10,8 @@
                 <a class="brand" href="#buildURL('')#">#rc.settings.global.appTitle#</a>
                 <div class="nav-collapse collapse">
                     <ul class="nav">
-                        <li class="active"><a href="##">Home</a></li>
-                        <li><a href="about">Users</a></li>
+                        <li class="active"><a href="#buildURL('main')#">Home</a></li>
+                        <li><a href="#buildURL('users')#">Users</a></li>
                     </ul>
                     <p class="navbar-text pull-right">
                         Logged as <a href="##" class="navbar-link">#rc.auth.username#</a> | <a href="#buildURL('login.logout')#" class="navbar-link">Logout</a>
